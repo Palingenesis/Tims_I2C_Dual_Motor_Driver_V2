@@ -5,7 +5,10 @@ This version of the driver firmware introduces several important updates:
 - Added **PID control** to the `G` (Go-To) commands.  
   Motors now accelerate, cruise, and decelerate smoothly to the target position at the requested RPM.  
 - Removed **current sensing** functionality.  
-  The ADC code for reading motor current has been disabled to simplify the firmware.
+  The ADC code for reading motor current has been disabled to reduce FLASH needed.
+- The Commands Have changed from the previous version.  
+Check the "G" commands.  
+No forward reverse "F", "R", replaced with "B" Basic.
 
 ---
 
