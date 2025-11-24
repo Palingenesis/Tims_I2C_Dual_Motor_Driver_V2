@@ -1,8 +1,9 @@
-# This is My I2C Dual Motor Driver  
-![3D Top](images/Tims_I2C_Dual_Motor_Driver_3D_Top.png)  
+# This is My I2C Dual Motor Driver Version 2  
+![3D Top](images/Tims_I2C_Dual_Motor_Driver_V2_(Top_3D).png)  
 ## This is an I2C controlled Dual Motor Driver Board.  
+<span style="color: red; font-weight: bold;">This Board supperceeds this one [Tims I2C Dual Motor Driver](https://github.com/Palingenesis/Tims-I2C-Dual-Motor-Driver?tab=readme-ov-file)</span>
 ### Files are for [KiCAD EDA](https://www.kicad.org/)  
-There is <span style="font-size: large;">**"Tims_I2C_Dual_Motor_Driver.kicad_pcb.zip"**</span> file  
+There is <span style="font-size: large;">**"Tims_I2C_Dual_Motor_Driver_V2.kicad_pcb.zip"**</span> file  
 * This can be used when **"Plot Files"** asked for at 
 <sub><a href="https://www.pcbway.com/"><img src="images/PCBWay179x50.png" alt="Alt text" height="25" /></a></sub> 
 when ordering 10 PCBs for $5  
@@ -14,7 +15,7 @@ and compeate the form on
 <sub><a href="https://www.pcbway.com/"><img src="images/PCBWay179x50.png" alt="Alt text" height="25" /></a></sub> 
 web site.  
   
-<a href="https://www.pcbway.com/project/shareproject/Tim_s_I2C_Dual_Motor_Driver_4f620b08.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
+<a href="https://www.pcbway.com/project/shareproject/Tim_s_I2C_Dual_Motor_Driver_[Version_2]_0646aaaf.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 ## About  
 The board can control two motors with quadratic encoders and a station to set a reference point.  
 This is my second I2C Motor Driver, My first worked OK, but The MOSFETS I used where a little temperamental,  
@@ -23,7 +24,7 @@ This one I decided to control 2 motors from one microcontroller.
 * The main reason for having it control two motors at the same time was that I tried my original motor drivers controlling a tracked vehicle.  
 It worked fine with two single motor drivers  but because I was using a web interface to control them there was a delay between turning on/off each motor.  
 * I thought having a motor driver that controls two motor at the same time was a better approach.  
-![I2C](images/Tims_I2C_Dual_Motor_Driver_I2C.png)  
+![I2C](images/Tims_I2C_Dual_Motor_Driver_006.png)  
 ## The Motor Driver is controlled via the I2C bus.  
 * Each board can have its own unique I2C Address.  
 * Not using the reserved Addresses over 100 in theory can be attached to one I2C bus. (Addresses 10 to 127 probably) 7-bit Address.  
@@ -33,7 +34,7 @@ It worked fine with two single motor drivers  but because I was using a web inte
   
 ![Flow Chart](images/Tims_I2C_Dual_Motor_Driver_FlowChart.png)  
 ## The Microcontroller is the STM8S103F3
-![STM8S103F3 Pins](images/Tims_I2C_Dual_Motor_Driver_STM8S103F3_Pins.png)  
+![STM8S103F3 Pins](images/Tims_I2C_Dual_Motor_Driver_V2_STM8S103F3_Pins.png)  
 * According to the Data Sheet, this can run with 2.95 to 5.5 V operating voltage.  
 * Caution should be taken when programming, The ST-Link is 3.3v.  
 * I was a little limited for pins and memory, as I am controlling two motors with this. The AI has been reduced, it still has inputs for quadratic encoders and a station, these enable it to know the rotation and position of the motors.  
@@ -47,7 +48,7 @@ It worked fine with two single motor drivers  but because I was using a web inte
 * STMicroelectronics "ST Visual Programmer" is part of "ST MCU toolset".  
 * I have done .s19 file for use with the "ST Visual Programmer".  
 * An ST-Link is required.
-![ST-Link_v2](images/ST-Link_v2.png)  
+![ST-Link_v2](images/ST_Link_v2_1200x730.png)  
 ## The Drivers used are DRV8876
 ![DRV8876 Functional Block_Diagram](images/DRV8876_Functional_Block_Diagram.png)  
 The DRV8876 is an N-channel H-bridge motor driver, the board has two of these.  
@@ -111,10 +112,10 @@ The **'G'** code **P**\<value> can be negative values. So why have **G1** and **
 [<img src="https://img.youtube.com/vi/bSmED1MQUrw/maxresdefault.jpg" width="600" height="340"/>](https://www.youtube.com/watch?v=bSmED1MQUrw)
 
 ## A Typical 4 Motor setup  
-![Typical 4 Motor setup](images/Tims_I2C_Dual_Motor_Driver_bb.png)  
+![Typical 4 Motor setup](images/Tims_I2C_Dual_Motor_Driver_V2_bb.png)  
 * One Microcontroller.  
 * Two Driver Boards.  
 * Four Motors With Quadratic Encoders.  
 * Each Motor has a Station to set the the zero position.  
   
-
+  --

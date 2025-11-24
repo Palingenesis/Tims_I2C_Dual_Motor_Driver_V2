@@ -1,36 +1,26 @@
-Sourced,Placed,References,Value,Footprint,Sourced From,Datasheet,Description,Quantity
-,,"C1, C2",22nF,C_0805_2012Metric,,,Unpolarized capacitor,2
-,,"C3, C4",100nF,C_0805_2012Metric,,,Unpolarized capacitor,2
-,,"C5, C6",100nF,C_1206_3216Metric,,,Unpolarized capacitor,2
-,,C7,1uF,C_0805_2012Metric,,,Unpolarized capacitor,1
-,,"R1, R2, R5, R6, R15, R18, R21, R22",10k,R_0805_2012Metric,,,Resistor,8
-,,"R11, R12, R19, R23, R24, R25, R26",150R,R_0805_2012Metric,,,Resistor,7
-,,"R3, R4",510R,R_0805_2012Metric,,,Resistor,2
-,,"R7, R8",Omit,R_0805_2012Metric,,,Resistor,
-,,"R9, R10",1k3,R_0805_2012Metric,,,Resistor,2
-,,"R13, R14",4k7,R_0805_2012Metric,,,Resistor,2
-,,"R16, R17",100R,R_0805_2012Metric,,,Resistor,2
-,,"R27, R28",1K5,R_0805_2012Metric,,,Resistor,2
-,,R20,680R,R_0805_2012Metric,,,Resistor,1
-,,"D1, D2, D10",LED (Red),LED_0805_2012Metric,,,Light emitting diode,3
-,,"D7, D8, D9",LED (Yellow),LED_0805_2012Metric,,,Light emitting diode,3
-,,"D3, D5",LED (Blue),LED_0805_2012Metric,,,Light emitting diode,2
-,,"D4, D6",LED (Green),LED_0805_2012Metric,,,Light emitting diode,2
-,,"U2, U3",DRV8876,HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm,https://www.digikey.co.uk/en/products/detail/texas-instruments/DRV8876PWPR/10270191,https://www.ti.com/lit/ds/symlink/drv8876.pdf?ts=1717632359923,"H-Bridge driver, 3.5A, Low Voltage, PH/EN input",2
-,,U1,STM8S103F,TSSOP-20_4.4x6.5mm_P0.65mm,https://www.digikey.co.uk/en/products/detail/stmicroelectronics/STM8S103F3P6/2214618,https://www.st.com/content/ccc/resource/technical/document/datasheet/ce/13/13/03/a9/a4/42/8f/CD00226640.pdf/files/CD00226640.pdf/jcr:content/translations/en.CD00226640.pdf,"16MHz, 8K Flash, 1K RAM, 128 EEPROM, USART, I²C, SPI, TSSOP-20",1
-,,"Pad7, Pad8",GND,Wire_Pad_2050mm,,,Wire Connection,2
-,,"Pad11, Pad12",Heat Sink,Wire_Pad_2050mm,,,Wire Connection,2
-,,"Q1, Q2",PNP_S8550,SOT-23,,,"PNP transistor, base/emitter/collector",2
-,,Pad1,VCC,Wire_Pad_D1.2mm,,,Wire Connection,1
-,,Pad2,SWIM,Wire_Pad_D1.2mm,,,Wire Connection,1
-,,Pad3,GND,Wire_Pad_D1.2mm,,,Wire Connection,1
-,,Pad4,NRST,Wire_Pad_D1.2mm,,,Wire Connection,1
-,,Pad5,Reset I2C,Wire_Pad_D1.2mm,,,Wire Connection,1
-,,Pad6,VCC,Wire_Pad_2050mm,,,Wire Connection,1
-,,Pad9,Motor power A,Wire_Pad_2050mm,,,Wire Connection,1
-,,Pad10,Motor power B,Wire_Pad_2050mm,,,Wire Connection,1
-,,"J1, J2",I2C,JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/S4B-PH-SM4-TB/926657?s=N4IgTCBcDaIMoBYBCBaACgCRXAsglAKkiALoC%2BQA,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,"Generic connector, single row, 01x04, script generated",2
-,,J3,Stations,JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/S4B-PH-SM4-TB/926657?s=N4IgTCBcDaIMoBYBCBaACgCRXAsglAKkiALoC%2BQA,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,"Generic connector, single row, 01x04, script generated",1
-,,J4,Motor A,JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal,https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/S8B-PH-SM4-TB/926661?s=N4IgTCBcDaIMoA4BCBaACgCRXAsgFhQBUkQBdAXyA,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,"Generic connector, single row, 01x06, script generated",1
-,,J5,Motor B,JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal,https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/S8B-PH-SM4-TB/926661?s=N4IgTCBcDaIMoA4BCBaACgCRXAsgFhQBUkQBdAXyA,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,"Generic connector, single row, 01x06, script generated",1
-,,J6,Motor Power,JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/S4B-PH-SM4-TB/926657?s=N4IgTCBcDaIMoBYBCBaACgCRXAsglAKkiALoC%2BQA,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,"Generic connector, single row, 01x04, script generated",1
+"null","Sourced","Placed","References","Value","Footprint","Sourced From","Datasheet","Description","Quantity"
+1,"✓","✓","C1, C2","22nF","C_0805_2012Metric","","","Unpolarized capacitor",2
+2,"✓","✓","C3, C4","100nF","C_0805_2012Metric","","","Unpolarized capacitor",2
+3,"✓","✓","C5, C6","100nF","C_1206_3216Metric","","","Unpolarized capacitor",2
+4,"✓","✓","C7","1uF","C_0805_2012Metric","","","Unpolarized capacitor",1
+5,"✓","✓","R1, R2, R5, R6, R15, R18, R21, R22","10k","R_0805_2012Metric","","","Resistor",8
+6,"✓","✓","R11, R12, R19, R23, R24, R25, R26","150R","R_0805_2012Metric","","","Resistor",7
+7,"✓","✓","R3, R4","510R","R_0805_2012Metric","","","Resistor",2
+8,"✓","✓","R7, R8","Omit","R_0805_2012Metric","","","Resistor",2
+9,"✓","✓","R9, R10","1k3","R_0805_2012Metric","","","Resistor",2
+10,"✓","✓","R13, R14","4k7","R_0805_2012Metric","","","Resistor",2
+11,"✓","✓","R16, R17","100R","R_0805_2012Metric","","","Resistor",2
+12,"✓","✓","R27, R28","1K5","R_0805_2012Metric","","","Resistor",2
+13,"✓","✓","R20","680R","R_0805_2012Metric","","","Resistor",1
+14,"✓","✓","D1, D2, D10","LED (Red)","LED_0805_2012Metric","","","Light emitting diode",3
+15,"✓","✓","D7, D8, D9","LED (Yellow)","LED_0805_2012Metric","","","Light emitting diode",3
+16,"✓","✓","D3, D5","LED (Blue)","LED_0805_2012Metric","","","Light emitting diode",2
+17,"✓","✓","D4, D6","LED (Green)","LED_0805_2012Metric","","","Light emitting diode",2
+18,"✓","✓","U2, U3","DRV8876","HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm","https://www.digikey.co.uk/en/products/detail/texas-instruments/DRV8876PWPR/10270191","https://www.ti.com/lit/ds/symlink/drv8876.pdf?ts=1717632359923","H-Bridge driver, 3.5A, Low Voltage, PH/EN input",2
+19,"✓","✓","U1","STM8S103F","TSSOP-20_4.4x6.5mm_P0.65mm","","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf","16MHz, 8K Flash, 1K RAM, 128 EEPROM, USART, I²C, SPI, TSSOP-20",1
+20,"✓","✓","Q1, Q2","PNP_S8550","SOT-23","","","PNP transistor, base/emitter/collector",2
+21,"✓","✓","J1, J2","I2C","JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal","","https://www.jst-mfg.com/product/pdf/eng/ePH.pdf","Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",2
+22,"✓","✓","J3","Stations","JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal","","https://www.jst-mfg.com/product/pdf/eng/ePH.pdf","Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",1
+23,"✓","✓","J4","Motor A","JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal","https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/S8B-PH-SM4-TB/926661?s=N4IgTCBcDaIMoA4BCBaACgCRXAsgFhQBUkQBdAXyA","https://www.jst-mfg.com/product/pdf/eng/ePH.pdf","Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",1
+24,"✓","✓","J5","Motor B","JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal","https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/S8B-PH-SM4-TB/926661?s=N4IgTCBcDaIMoA4BCBaACgCRXAsgFhQBUkQBdAXyA","https://www.jst-mfg.com/product/pdf/eng/ePH.pdf","Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",1
+25,"✓","✓","J6","Motor Power","JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal","","https://www.jst-mfg.com/product/pdf/eng/ePH.pdf","Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",1
